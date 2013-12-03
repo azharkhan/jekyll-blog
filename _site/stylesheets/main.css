@@ -1,0 +1,70 @@
+@import url("http://fonts.googleapis.com/css?family=Oswald");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans");
+/* line 5, ../sass/main.sass */
+.post-content {
+  font-family: "Open Sans", "Helvetica", "sans-serif";
+}
+/* line 8, ../sass/main.sass */
+.post-content .post-title {
+  padding: 0;
+  font-family: "Oswald", "Helvetica", "sans-serif";
+  font-size: 2em;
+}
+/* line 13, ../sass/main.sass */
+.post-content p.date {
+  font-size: 0.5em;
+  color: #5d5d5d;
+  padding: 0.5em 0;
+}
+
+/* line 18, ../sass/main.sass */
+.container {
+  margin: 0;
+  padding: 3.75em 0.625em;
+}
+
+/* line 23, ../sass/main.sass */
+.author-info p {
+  font-style: italic;
+  font-size: 0.75em;
+  color: #5e5e5e;
+}
+
+/* line 28, ../sass/main.sass */
+.author-photo {
+  height: 6.25em;
+  width: 6.25em;
+  -webkit-border-radius: 6.25em;
+  -moz-border-radius: 6.25em;
+  -ms-border-radius: 6.25em;
+  -o-border-radius: 6.25em;
+  border-radius: 6.25em;
+}
+
+/* line 33, ../sass/main.sass */
+.social-icons {
+  font-size: 2em;
+}
+@media screen and (max-width: 480px) {
+  /* line 33, ../sass/main.sass */
+  .social-icons {
+    font-size: 1.5em;
+    padding: none;
+  }
+}
+/* line 38, ../sass/main.sass */
+.social-icons a {
+  color: #5e5e5e;
+}
+/* line 42, ../sass/main.sass */
+.social-icons .icon-twitter:hover {
+  color: #00b6f3;
+}
+/* line 46, ../sass/main.sass */
+.social-icons .icon-tumblr:hover {
+  color: #385674;
+}
+/* line 50, ../sass/main.sass */
+.social-icons .icon-github:hover {
+  color: #c3c2be;
+}

@@ -1,0 +1,51 @@
+@import "compass/css3"
+@import url("http://fonts.googleapis.com/css?family=Oswald")
+@import url("http://fonts.googleapis.com/css?family=Open+Sans")
+
+.post-content
+    font-family: 'Open Sans', 'Helvetica', 'sans-serif'
+
+    .post-title
+        padding: 0
+        font-family: 'Oswald', 'Helvetica', 'sans-serif'
+        font-size: 2em
+
+    p.date
+        font-size: 0.5em
+        color: #5d5d5d
+        padding: 0.5em 0
+
+.container
+    margin: 0
+    padding: 3.75em 0.625em
+
+.author-info
+    p
+        font-style: italic
+        font-size: 0.75em
+        color: #5e5e5e
+
+.author-photo
+    height: 6.25em
+    width: 6.25em
+    +border-radius(6.25em)
+
+.social-icons
+    font-size: 2em
+    @media screen and (max-width: 480px)
+        font-size: 1.5em
+        padding: none
+    a
+        color: #5e5e5e
+
+    .icon-twitter
+        &:hover
+            color: #00b6f3 
+
+    .icon-tumblr
+        &:hover
+            color: #385674 
+            
+    .icon-github
+        &:hover
+            color: #c3c2be 
